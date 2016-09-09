@@ -1,0 +1,218 @@
+/*
+Simple CSS reset
+*/
+
+code {
+    display: block;
+    background: #94efff;
+    color: #ffffff;
+    padding: 5px;
+    margin: 3px;
+}
+* {
+    margin: 0;
+    padding:0;
+    font-size: 16px;;
+}
+
+body {
+    padding: 40px;
+    font-family:"Segoe UI Semibold",SansSerif;
+    color: #353535;
+}
+
+h1, h2, h3,h4,h5,h6 {
+    margin: 10px;
+    font-family:sans-serif;
+    font-weight:bold;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size:2em;
+}
+
+h3 {
+    font-size:1.5em;
+    letter-spacing: 1px;
+    text-align: center;
+    word-spacing:1px;
+}
+
+blockquote {
+    margin:0 0 30px;
+    font-style: italic;
+    text-indent:80px;
+    line-height:2em;
+}
+
+span {
+    text-decoration: line-through;
+}
+
+em {
+    text-transform: uppercase;
+}
+
+strong {
+    font-weight:bold;
+    text-transform: capitalize;
+
+}
+
+a {
+    color: deeppink;
+    font-size: 1.2em;
+}
+
+/*  Border CSS */
+
+.border-box {
+    width:500px;
+    background: #eeeeee;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#box-1 {
+    border:solid 1px #33bcde;
+}
+
+#box-2 {
+    border:dashed 1px #33bcde;
+}
+
+#box-3 {
+    border:dotted 1px #33bcde;
+}
+
+#box-4 {
+    border:double 4px #33bcde;
+}
+
+#box-5 {
+    border:solid 4px #ed7000;
+}
+
+#box-6 {
+    border:dashed 4px #ed7000;
+}
+
+#box-7 {
+    border:dotted 4px #ed7000;
+}
+
+#box-8 {
+    border:double 4px #ed7000;
+}
+
+
+
+
+/* background images */
+
+.background-example {
+    height: 200px;
+    width: 200px;
+    border:solid 1px black;
+}
+
+#background-1 {
+    background-image: url('images/blue_background.jpg');
+}
+
+#background-2 {
+    background-color: #a3d;
+}
+
+#background-3 {
+    background-image: url('images/steak_background.jpg ') ;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+
+
+
+#background-4 {
+    background: url("images/skull_background.jpg") bottom left repeat-x;
+}
+
+
+/*   custom form CSS   */
+
+
+
+#container {
+    width:500px;
+    margin:0 auto;
+}
+
+form {
+    background-image: url(images/red_background.jpg);
+    padding:20px;
+    font-family:SansSerif;
+}
+
+form fieldset {
+    background-image: url(images/blue_background.jpg);
+    padding:40px;
+    border:solid 1px white;
+}
+
+form legend {
+    border:solid 1px #333333;
+    background-image: url(images/blue_background.jpg);
+    padding:5px;
+    font-size:30px;
+    font-weight:bold;
+}
+
+form input, form textarea {
+    display: block;
+    margin-bottom: 20px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+form label {
+    font-size:11px;
+    text-transform: uppercase;
+}
+
+form input[type="text"],form input[type="email"],form textarea {
+    padding:10px;
+    font-size:2px;
+    color: #ffffff;
+    border:solid 1px #b90707;
+    background-image: url(images/red_background.jpg);
+}
+
+form textarea {
+    width:300px;
+    height:200px;
+}
+
+form input[type="submit"] {
+    border:none;
+    background-image: url(images/button_background.jpg);
+    padding:0 20px;
+    height:40px;
+    border:solid 1px #d4730c;
+    color: #ffffff;
+    font-weight:bold;
+    font-family:SansSerif;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
